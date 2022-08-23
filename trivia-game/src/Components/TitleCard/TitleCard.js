@@ -20,6 +20,7 @@ export default function TitleCard(props) {
         setQuestionsArray={props.setQuestionsArray}
         setUserAnswers={props.setUserAnswers}
         setUserAnswersString={props.setUserAnswersString}
+        setIsLoading={props.setIsLoading}
       />
     </section>
   );

@@ -1,3 +1,11 @@
 
+.loading {
+    display:flex;
+    justify-content:center;
+    margin-top:30vh;
+}
 
+.loading > * {
+    transform:scale(10)
+}
 
