@@ -3,6 +3,7 @@ import Confetti from 'react-confetti'
 
 import Question from "./Question/Question";
 import FinishButton from "./FinishButton/FinishButton";
+import StickyTitle from "./StickyTitle/StickyTitle"
 
 import logosArr from "../../utils/logosArray";
 import shuffle from "../../utils/shuffle";
@@ -27,6 +28,7 @@ export default function Questions(props) {
   return (
     <section className="questionsContainer">
       
+      <StickyTitle/>
       {props.questionsArray.map((question, index) => {
         return (
           <Question
