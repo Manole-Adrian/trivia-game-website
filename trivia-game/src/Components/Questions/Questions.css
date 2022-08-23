@@ -1,0 +1,16 @@
+
+
+.questionsContainer {
+    align-self:center;
+    margin:auto;
+    width:75%;
+    margin-top:2rem;
+    
+    padding:1rem 5rem 0.5rem 5rem;
+}
+
+
+img {
+    max-width:200px;
+    position:fixed
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
+
+
+.titleCard {
+    z-index: 1;
+    text-align:center;
+    margin: auto;
+    width: 50%;
+    min-width:40rem;
+    font-size:5rem;
+    margin-top:10rem;
+    background-color: #001D3D;
+    border-radius: 50px;
+    border-color:white;
+    border-width:3px;
+    border-style:solid;
+    font-family: 'Inter';
+    color: white;
+}
+
+.titleCard-title {
+    margin:0;
+    padding-top:4rem;
+} 
+
+.titleCard-subtitle {
+    font-size:3rem;
+    padding-bottom:5rem;
+}
+
+.orange {
+    color:#fb8500;
+}
