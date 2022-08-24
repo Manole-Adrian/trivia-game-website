@@ -1,12 +1,20 @@
-import React from "react"
+import React from "react";
+import Tooltip from "@mui/material/Tooltip";
 
-import "./StickyTitle.css"
+import "./StickyTitle.css";
 
 export default function StickyTitle() {
-
-
-    return(<div className="stickyTitleContainer">
-        <h1> Comp<span className="orange">Tri</span></h1>
+  return (
+    <section className="stickyTitle">
+      <div className="stickyTitleContainer">
+        <h1>
+          Comp<span className="orange">Tri</span>
+        </h1>
         <h2>The Computer Science Trivia Game!</h2>
-    </div>)
+      </div>
+      <Tooltip title="Created by Manole Adrian Using OTDB API" arrow placement="right">
+        <div className="info">i</div>
+      </Tooltip>
+    </section>
+  );
 }

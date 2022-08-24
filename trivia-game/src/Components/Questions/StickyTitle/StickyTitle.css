@@ -1,27 +1,31 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+.stickyTitle {
+    display:flex;
+    justify-content: center;
+    font:"Inter";
+}
 
 .stickyTitleContainer {
-    position:relative;
     display:inline-block;
     color:white;
     text-align:center;
     background-color:#001D3D;
     border-radius:10px;
     padding: 10px;
-    transform:translateX(-50%);
     border-style:solid;
     border-width:2px;
     border-color:white;
-    font:"Inter";
-    z-index:2;
+
     transition: all .3s;
     font-size:2rem;
     margin-bottom:0rem;
-    left:50%;
     padding: 10px 30px;
+    animation: fadeIn 1s ease;
 }
 
 .stickyTitleContainer:hover {
-    transform:scale(1.05),translateX(-50%);
+    transform:scale(1.05)
 }
 
 .stickyTitleContainer > * {
@@ -30,4 +34,26 @@
 
 .stickyTitleContainer > h2 {
     font-size:1rem;
+}
+
+.info {
+    border-radius: 50%;
+    background-color: #001D3D;
+    width:25px;
+    height:25px;
+    text-align:center;
+    color:white;
+    margin: auto 25px;
+    padding:20px;
+    font-size:2rem;
+    line-height:25px;
+    font:"Inter";
+    border-style:solid;
+    transition: all .3s;
+    border-width:2px;
+    border-color:white;
+}
+
+.info:hover {
+    transform: scale(1.05);
 }
