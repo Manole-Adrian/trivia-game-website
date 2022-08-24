@@ -12,7 +12,7 @@ export default function StickyTitle() {
         </h1>
         <h2>The Computer Science Trivia Game!</h2>
       </div>
-      <Tooltip title="Created by Manole Adrian Using OTDB API" arrow placement="right">
+      <Tooltip title="Created by Manole Adrian using OTDB API" arrow placement="right">
         <div className="info">i</div>
       </Tooltip>
     </section>

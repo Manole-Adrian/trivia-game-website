@@ -52,6 +52,7 @@
     transition: all .3s;
     border-width:2px;
     border-color:white;
+    animation: fadeIn 1s ease;
 }
 
 .info:hover {
